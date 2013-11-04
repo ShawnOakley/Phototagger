@@ -15,6 +15,17 @@
  *= require_tree .
  */
 
+body {
+  background-color:#232B2B;
+  color: #FFFFFF;
+}
+
+body a{
+  color:#E3AE57;
+}
+
+
+
 div.photo-tag {
   width: 100px;
   height: 100px;
@@ -34,4 +45,22 @@ ul.tag-options li {
   color: red;
   height: 20px;
   width: 100px;
+}
+
+ul.login-info {
+width:auto;
+float:right;
+background-color:#DC3D24;
+width:auto;
+border-radius:25px;
+padding:10px;
+border:1px solid black;
+}
+
+ul.login-info li{
+list-style: none;
+float:left;
+display:inline-block;
+clear:both;
+
 }
